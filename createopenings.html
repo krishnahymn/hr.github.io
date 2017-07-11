@@ -1,0 +1,70 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>HR MANAGEMENT</title>
+<link rel="stylesheet" type="text/css" href="styles/global.css"/>
+
+<meta name="viewport" content="width=device-width,intial-scale=1.0,user-scalable=0">
+<script src="script/jquery-3.2.0.min.js"></script>
+<script src="script/general.js"></script>
+</head>
+<body>
+
+<div id="header">
+	<div class="logo"><a href="#">Recruitment<span>Management</span></a>
+	</div>
+</div>
+<div class="container">
+      <div class="sidebar">
+        <ul id="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="openings.html">OPENINGS</a></li>
+        <li><a href="candiates.html">CANDIDATES</a></li>
+        <li><a href="#">VIEW</a></li>
+
+        </ul>
+      </div>
+<div class="content">
+<div class="form-style">
+<form>
+<fieldset>
+<legend><span class="number">1</span> Job Info</legend>
+<input type="text" name="field1" placeholder="Job Title ">
+
+<textarea name="field3" placeholder="Job Description"></textarea>
+<input type="email" name="field2" placeholder="Skills">
+<label for="job">Department</label>
+<select id="job" name="field4">
+<optgroup label="IT">
+  <option value="Junior Software Engineer">Junior Software Engineer</option>
+  <option value="Front End Developer">Front End Developer</option>
+ 
+</optgroup>
+<optgroup label="Management">
+  <option value="Sales">Sales</option>
+  <option value="Marketing">Marketing</option>
+  
+  <option value="other_outdoor">Other</option>
+</optgroup>
+</select>      
+</fieldset>
+<fieldset>
+<legend><span class="number">2</span>Job Responsibility</legend>
+<textarea name="field3" placeholder="About Your School"></textarea>
+</fieldset>
+<fieldset>
+<legend><span class="number">3</span>Who Can Apply?</legend>
+<textarea name="field3" placeholder="Qualification"></textarea>
+</fieldset>
+<fieldset>
+<legend><span class="number">4</span>Salary</legend>
+<input type="text" name="field1" placeholder="Job Title ">
+</fieldset>
+<input type="submit" value="Create" />
+</form>
+</div>
+
+</div>
+
+</body>
+</html>
